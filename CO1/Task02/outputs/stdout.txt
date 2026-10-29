@@ -1,0 +1,2 @@
+Fare paise: 3600
+Minimum balance paise: 5000

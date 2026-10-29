@@ -1,0 +1,4 @@
+8:00 is peak
+10:00 is off-peak
+17:00 is peak
+20:00 is off-peak

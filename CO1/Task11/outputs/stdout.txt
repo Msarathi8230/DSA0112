@@ -1,0 +1,1 @@
+Accepted fare=3600 paise, balance=6400 paise

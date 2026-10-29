@@ -1,0 +1,4 @@
+Airport peak fare paise=7200 (Rs 72.00)
+Airport weekend fare paise=5400 (Rs 54.00)
+Pass covers Inner=1, Outer=0
+Rs100 card can pay Rs72 and retain Rs50? 0

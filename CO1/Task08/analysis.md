@@ -1,0 +1,3 @@
+# Task 8 — Safe input and output
+
+`cin >>` parses formatted input. On letters where an integer is expected, `cin.fail()` becomes true. Call `cin.clear()` to reset the state, then `cin.ignore(max, '\\n')` to discard the invalid line before retrying. The example also validates the range 0–23. `setw(2)` and `setfill('0')` format paise; they affect the next formatted field, so fill is restored where appropriate. An alternative `getline` + `stoi` handles a whole line and exceptions, but costs O(L) for a line of length L and requires O(L) buffer space; formatted extraction is also O(L) in the consumed input and can recover with clear/ignore. `stoi` must additionally check that the entire line was consumed to reject trailing junk.

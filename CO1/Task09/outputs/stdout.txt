@@ -1,0 +1,17 @@
+Inner off-peak: expected=1000 actual=1000 PASS
+Inner peak: expected=1200 actual=1200 PASS
+Middle off-peak: expected=2000 actual=2000 PASS
+Middle peak: expected=2400 actual=2400 PASS
+Outer off-peak: expected=3000 actual=3000 PASS
+Outer peak: expected=3600 actual=3600 PASS
+exact 08:00 peak: expected=1200 actual=1200 PASS
+exact 10:00 off-peak: expected=1000 actual=1000 PASS
+exact 17:00 peak: expected=1200 actual=1200 PASS
+exact 20:00 off-peak: expected=1000 actual=1000 PASS
+unknown zone: expected=-1 actual=-1 PASS
+invalid hour: expected=-1 actual=-1 PASS
+balance leaves exactly Rs50: PASS
+balance leaves Rs49.99: PASS
+negative recharge rejected: PASS
+Five-trip hand total paise: 9600 (Rs 96.00)
+Summary: 15/15 checks passed

@@ -1,0 +1,5 @@
+20000 journeys: integer paise=24000000, rupees=240000.00
+500000 journeys: integer paise=600000000, rupees=6000000.00
+3000000 journeys: integer paise=3600000000, rupees=36000000.00
+3M x Rs36 in paise=10800000000 (int max=2147483647)
+3M x Rs0.10 accumulated double=300000.00000195682514459
