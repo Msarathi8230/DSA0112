@@ -1,11 +1,11 @@
 # ASSIGNMENT 1 REPORT
 
 **Title:** Design, Implement and Validate the Fare Logic of a City Metro Smart-Card System  
-**Student:** Santosh M.  
-**Register Number:** REPLACE_WITH_REGISTER_NUMBER  
+**Student:** Sarathi.M  
+**Register Number:** 1965260151  
 **Course Outcome:** CO1  
 **Compiler used for verification:** GCC g++ 14.2.0, C++17, Linux x86-64  
-**Repository:** DSA01-REGISTER_NUMBER-Assignment1 (replace placeholder with actual register number)
+**Repository:** DSA0112
 
 ## General design assumptions
 - Store money as integer paise; Rs 1 = 100 paise.
@@ -281,11 +281,4 @@ Rs100 card can pay Rs72 and retain Rs50? 0
 g++ -std=c++17 -Wall -Wextra -pedantic Task04/predict_output.cpp -o task04
 ./task04
 bash scripts/build_and_test.sh
-```
-
-## Submission checklist
-- [ ] Replace `REPLACE_WITH_REGISTER_NUMBER` in README/report and rename repository to `DSA01-<RegisterNumber>-Assignment1`.
-- [ ] Review and understand every program; rerun on the compiler used in college.
-- [ ] Commit changes progressively (local history contains task-by-task commits after initialisation).
-- [ ] Create/push the GitHub repository, confirm it is accessible to faculty, and add faculty collaborator if private.
-- [ ] Submit repository URL and this report through Google Classroom.
+``
